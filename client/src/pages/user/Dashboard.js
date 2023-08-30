@@ -3,6 +3,7 @@ import Layout from "../../components/Layout/Layout";
 import UserMenu from "../../components/Layout/UserMenu";
 import { useAuth } from "../../context/auth";
 const Dashboard = () => {
+  // Accessing authorized user
   const [auth] = useAuth();
   return (
     <Layout title={"Dashboard - Shop-Haven"}>

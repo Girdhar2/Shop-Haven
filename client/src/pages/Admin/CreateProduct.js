@@ -111,7 +111,7 @@ const CreateProduct = () => {
                   <div className="text-center">
                     <img
                       src={URL.createObjectURL(photo)}
-                      //src={`http://localhost:8080/api/v1/product/product-photo/${photo}`}
+                      //src={`https://shop-haven.onrender.com/api/v1/product/product-photo/${photo}`}
                       alt="product_photo"
                       height={"200px"}
                       className="img img-responsive"
